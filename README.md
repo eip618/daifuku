@@ -1,6 +1,7 @@
 # daifuku discord moderation bot
 
 daifuku is a modular async discord moderation bot written with discord.py 
+
 uses mysql for storage and cogs for extension
 
 # warning
