@@ -1,6 +1,8 @@
 import discord
 from discord.ext import commands
 import asyncio
+import uvloop
+asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 from dotenv import load_dotenv
 import os
 import aiomysql
